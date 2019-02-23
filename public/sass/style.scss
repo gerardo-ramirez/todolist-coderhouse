@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.poster{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    background: #bbefe5;
+    border: 4px dotted #fff;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+   border-radius: 30px;
+    animation-name: efect;
+    animation-iteration-count: initial;
+    animation-duration: 2s;
+    animation-delay: 0,3s;
+
+    -o-animation-name: efect;
+    -o-animation-iteration-count: initial;
+    -o-animation-duration: 2s;
+    -o-animation-delay: 0,3s;
+
+    -webkit-animation-name: efect;
+    -webkit-animation-iteration-count: initial;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0,3s
+    
+
+}
+
+@keyframes efect{
+    0%{transform: rotate(0deg)}
+    25%{ transform: rotate(25deg)}
+   // 50%{transform: rotate(0deg)}
+    75%{transform: rotate(-25deg)}
+    100%{transform: rotate(0deg);
+    
+        transform: scale(1.2)}
+}
+@-o-keyframes efect{
+    0%{transform: rotate(0deg)}
+    25%{ transform: rotate(25deg)}
+   // 50%{transform: rotate(0deg)}
+    75%{transform: rotate(-25deg)}
+    100%{transform: rotate(0deg);
+    
+        transform: scale(1.2)}
+}
+@-webkit-keyframes efect{
+    0%{transform: rotate(0deg)}
+    25%{ transform: rotate(25deg)}
+   // 50%{transform: rotate(0deg)}
+    75%{transform: rotate(-25deg)}
+    100%{transform: rotate(0deg);
+    
+        transform: scale(1.2)}
+}
